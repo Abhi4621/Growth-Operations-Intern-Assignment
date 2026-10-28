@@ -1,0 +1,1567 @@
+{
+  "users": [
+    {
+      "id": "a0000000-0000-0000-0000-000000000001",
+      "email": "admin@growthops.com",
+      "fullName": "Head of Growth (Admin)",
+      "role": "admin",
+      "createdAt": "2026-10-20T09:00:00Z"
+    },
+    {
+      "id": "a0000000-0000-0000-0000-000000000002",
+      "email": "sarah.ops@growthops.com",
+      "fullName": "Sarah Jenkins (Ops Lead)",
+      "role": "reviewer",
+      "createdAt": "2026-10-21T10:30:00Z"
+    },
+    {
+      "id": "a0000000-0000-0000-0000-000000000003",
+      "email": "abhi.intern@growthops.com",
+      "fullName": "Abhi Pandey (Candidate)",
+      "role": "candidate",
+      "createdAt": "2026-10-22T14:15:00Z"
+    }
+  ],
+  "passwords": {
+    "a0000000-0000-0000-0000-000000000001": "$2a$10$7DBq30OCAFR.OM5QW7QaVeFd/AD/DYMiju9v/BEJJTnIymYvCTJaq",
+    "a0000000-0000-0000-0000-000000000002": "$2a$10$7DBq30OCAFR.OM5QW7QaVeFd/AD/DYMiju9v/BEJJTnIymYvCTJaq",
+    "a0000000-0000-0000-0000-000000000003": "$2a$10$7DBq30OCAFR.OM5QW7QaVeFd/AD/DYMiju9v/BEJJTnIymYvCTJaq"
+  },
+  "candidates": [
+    {
+      "id": "4b2415ae-40a2-434b-a109-baa93bc36688",
+      "name": "Jordan Lee",
+      "email": "jordan.lee@test.com",
+      "phone": "+1 (555) 999-8888",
+      "appliedDate": "2026-10-28",
+      "status": "shortlisted",
+      "overallScore": 0,
+      "resumeUrl": "",
+      "experienceLevel": "B.S. Industrial Engineering",
+      "notes": "",
+      "createdAt": "2026-10-28T09:51:39.170Z"
+    },
+    {
+      "id": "ec9f80a5-fc5d-4376-bf53-704fa868ed31",
+      "name": "Jordan Lee",
+      "email": "jordan.lee@test.com",
+      "phone": "+1 (555) 999-8888",
+      "appliedDate": "2026-10-28",
+      "status": "shortlisted",
+      "overallScore": 0,
+      "resumeUrl": "",
+      "experienceLevel": "B.S. Industrial Engineering",
+      "notes": "",
+      "createdAt": "2026-10-28T09:48:28.107Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000001",
+      "name": "Abhi Pandey",
+      "email": "abhi.pandey@example.com",
+      "phone": "+1 (555) 234-5678",
+      "appliedDate": "2026-10-25",
+      "status": "under_review",
+      "overallScore": 94.5,
+      "resumeUrl": "https://example.com/resumes/abhi-pandey.pdf",
+      "experienceLevel": "Final Year BSBA / CS Minor",
+      "notes": "Candidate submitted take-home assessment.",
+      "createdAt": "2026-10-25T11:00:00Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000002",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "phone": "+1 (555) 345-6789",
+      "appliedDate": "2026-10-26",
+      "status": "interview_scheduled",
+      "overallScore": 88,
+      "resumeUrl": "https://example.com/resumes/priya-sharma.pdf",
+      "experienceLevel": "Growth Ops Fellow",
+      "notes": "High analytical rigor; detailed calendar confirmation protocols and verified B2B account problems.",
+      "createdAt": "2026-10-26T14:20:00Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000003",
+      "name": "Jordan Vance",
+      "email": "jordan.vance@example.com",
+      "phone": "+1 (555) 456-7890",
+      "appliedDate": "2026-10-23",
+      "status": "shortlisted",
+      "overallScore": 84,
+      "resumeUrl": "https://example.com/resumes/jordan-vance.pdf",
+      "experienceLevel": "Junior SDR",
+      "notes": "Strong practical execution in operations tracker; well-thought-out 5-day contingency plan.",
+      "createdAt": "2026-10-23T16:00:00Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000004",
+      "name": "Marcus Brody",
+      "email": "marcus.brody@example.com",
+      "phone": "+1 (555) 567-8901",
+      "appliedDate": "2026-10-27",
+      "status": "under_review",
+      "overallScore": 74,
+      "resumeUrl": "https://example.com/resumes/marcus-brody.pdf",
+      "experienceLevel": "Economics Undergrad",
+      "notes": "Good funnel calculations, but outreach lacked decision-maker personalization.",
+      "createdAt": "2026-10-27T08:30:00Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000005",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@example.com",
+      "phone": "+1 (555) 678-9012",
+      "appliedDate": "2026-10-24",
+      "status": "under_review",
+      "overallScore": 79.5,
+      "resumeUrl": "https://example.com/resumes/elena-rostova.pdf",
+      "experienceLevel": "Marketing Associate",
+      "notes": "Engaging founder update tone; exceeded daily 2-hour work constraint slightly.",
+      "createdAt": "2026-10-24T12:45:00Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000006",
+      "name": "Taylor Reed",
+      "email": "taylor.reed@example.com",
+      "phone": "+1 (555) 789-0123",
+      "appliedDate": "2026-10-27",
+      "status": "under_review",
+      "overallScore": 68,
+      "resumeUrl": "https://example.com/resumes/taylor-reed.pdf",
+      "experienceLevel": "Business Analytics Student",
+      "notes": "Submitted baseline metrics; research sources require manual URL verification.",
+      "createdAt": "2026-10-27T17:10:00Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000007",
+      "name": "Maya Lin",
+      "email": "maya.lin@example.com",
+      "phone": "+1 (555) 890-1234",
+      "appliedDate": "2026-10-25",
+      "status": "shortlisted",
+      "overallScore": 90,
+      "resumeUrl": "https://example.com/resumes/maya-lin.pdf",
+      "experienceLevel": "Product Ops Intern",
+      "notes": "Top tier problem-solving and structured metrics dashboard; clear founder memo.",
+      "createdAt": "2026-10-25T19:00:00Z"
+    }
+  ],
+  "submissions": {
+    "ec9f80a5-fc5d-4376-bf53-704fa868ed31": {
+      "funnelData": {
+        "potentialCustomers": 100,
+        "contactedCustomers": 80,
+        "respondedCustomers": 20,
+        "meetingsBooked": 8,
+        "demosAttended": 3,
+        "interestedFollowUp": 2
+      },
+      "metrics": {
+        "contactRate": 80,
+        "responseRate": 25,
+        "meetingBookingRate": 10,
+        "demoAttendanceRate": 37.5,
+        "followUpInterestRate": 66.7
+      },
+      "savedAt": "2026-10-28T09:48:28.112Z",
+      "submittedAt": "2026-10-28T09:48:28.115Z"
+    },
+    "4b2415ae-40a2-434b-a109-baa93bc36688": {
+      "funnelData": {
+        "potentialCustomers": 100,
+        "contactedCustomers": 80,
+        "respondedCustomers": 20,
+        "meetingsBooked": 8,
+        "demosAttended": 3,
+        "interestedFollowUp": 2
+      },
+      "metrics": {
+        "contactRate": 80,
+        "responseRate": 25,
+        "meetingBookingRate": 10,
+        "demoAttendanceRate": 37.5,
+        "followUpInterestRate": 66.7
+      },
+      "savedAt": "2026-10-28T09:51:39.178Z",
+      "submittedAt": "2026-10-28T09:51:39.182Z"
+    },
+    "c0000000-0000-0000-0000-000000000001": {
+      "candidateName": "Abhi Pandey",
+      "candidateEmail": "abhi.pandey@example.com",
+      "funnelData": {
+        "potentialCustomers": 100,
+        "contactedCustomers": 80,
+        "respondedCustomers": 20,
+        "meetingsBooked": 8,
+        "demosAttended": 3,
+        "interestedFollowUp": 2
+      },
+      "assignmentData": {
+        "part1Bottleneck": "The primary bottleneck is between Meeting Booked (8) and Demo Attended (3) — a 62.5% drop-off. Once prospects attend, 66.7% express follow-up interest, meaning post-demo interest is strong but calendar show-up friction is our biggest leak.",
+        "part1Fix1": "Send a 60-second personalized Loom agenda video 24 hours before the call with timezone confirmation.",
+        "part1Fix2": "Implement a 2-hour pre-call SMS/Slack reminder with a 1-click reschedule link to eliminate ghosting.",
+        "accounts": [
+          {
+            "companyName": "Retool",
+            "website": "https://retool.com",
+            "decisionMaker": "David Hsu (CEO)",
+            "decisionMakerUrl": "https://www.linkedin.com/in/david-hsu-retool",
+            "signalUrl": "https://retool.com/changelog",
+            "outreachMessage": "Hi David, saw Retool expanding Workflows orchestration. As engineering teams trigger more async tasks, catching silent webhook payload failures without adding observability burden is tricky. Built a 2-click failover diagnostic that flags dropped executions automatically. Open to a 3-minute video breakdown if relevant?"
+          },
+          {
+            "companyName": "Ramp",
+            "website": "https://ramp.com",
+            "decisionMaker": "Eric Glyman (CEO)",
+            "decisionMakerUrl": "https://www.linkedin.com/in/eric-glyman-ramp",
+            "signalUrl": "https://ramp.com/careers",
+            "outreachMessage": "Hi Eric, saw Ramp scaling Procurement Operations hiring. When onboarding new enterprise vendor contracts, procurement handoffs often stall waiting for line-item approvals. We built a lightweight reconciliation pipeline that syncs supplier invoices to ERP tiers in 90 seconds. Worth a quick peek this week?"
+          }
+        ],
+        "dailyPlan": [
+          {
+            "day": "Day 1 (Mon)",
+            "task": "Audit 5 previous no-shows; dispatch 1-click reschedule sequence",
+            "minutes": 110,
+            "target": "5 re-engagement touches"
+          },
+          {
+            "day": "Day 2 (Tue)",
+            "task": "Deploy Loom preview + 2hr SMS calendar reminder workflow for upcoming calls",
+            "minutes": 105,
+            "target": "8 booked calls guarded"
+          },
+          {
+            "day": "Day 3 (Wed)",
+            "task": "Multi-channel outreach to 15 unresponsive prospects across email & LinkedIn",
+            "minutes": 115,
+            "target": "15 follow-up touches sent"
+          },
+          {
+            "day": "Day 4 (Thu)",
+            "task": "Account qualification check with AE; draft discovery briefs for new demos",
+            "minutes": 100,
+            "target": "3 qualified briefs"
+          },
+          {
+            "day": "Day 5 (Fri)",
+            "task": "Synthesize show-up rate delta, review CRM hygiene, draft 1-page founder brief",
+            "minutes": 120,
+            "target": "Weekly update delivered"
+          }
+        ],
+        "selectedInitiatives": [
+          "Follow up with existing leads",
+          "Schedule demos with interested prospects"
+        ],
+        "founderMemo": {
+          "mainProblem": "Demo attendance collapsed to 37.5% (5 no-shows out of 8 booked calls), delaying pipeline conversion despite healthy 25% response rates.",
+          "actionsTaken": [
+            "Shipped an automated 3-touch reminder sequence (instant invite, 60s Loom teaser 24h prior, SMS alert 2h prior).",
+            "Segmented 20 unresponsive leads into trigger-based follow-up cohorts with personalized angles.",
+            "Logged 5 high-priority SaaS accounts with verified decision-makers and working public feature signals in the CRM."
+          ],
+          "nextWeekPriorities": [
+            "Roll out the pre-demo video safeguard across all upcoming booked discovery calls to target >= 75% attendance.",
+            "A/B test the 75-word micro-audit outreach template against 25 new accounts.",
+            "Set up a daily 15-minute lead status hygiene review in the Operations Tracker."
+          ]
+        }
+      },
+      "submittedAt": "2026-10-28T10:15:15.699Z",
+      "isOfficialSubmission": true
+    }
+  },
+  "businessResearch": [
+    {
+      "id": "b0000000-0000-0000-0000-000000000001",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Customer.io",
+      "website": "https://customer.io",
+      "industry": "B2B SaaS / Automated Messaging & Customer Data",
+      "description": "Customer engagement and automated messaging platform for tech companies and modern product teams.",
+      "problem": "High sales engineering capacity waste from mid-market demo no-shows during competitive evaluation against Braze/Iterable.",
+      "decisionMaker": "Chris Parker, VP of Global Sales",
+      "personalisedOutreach": "Hi Chris, saw Customer.io expanding its Data Pipelines integration. As sales velocity scales, how is your team handling demo show-up rates for mid-market technical evaluations? We built a lightweight pre-demo qualification workflow that lifts attendance from 38% to 78% by sending dynamic 60-sec architecture briefs. Worth a 5-min look?",
+      "sourceUrls": [
+        "https://customer.io/about/",
+        "https://linkedin.com/in/chrisparker-sales"
+      ],
+      "verificationStatus": "Verified with Sources",
+      "verifiedFacts": [
+        "Recent push into Data Pipelines expansion",
+        "VP Global Sales leading 40+ rep organization",
+        "High ACV ($15k-$60k)"
+      ],
+      "assumptions": [
+        "Mid-market demo attendance fluctuates around 35-40%"
+      ],
+      "createdAt": "2026-10-25T12:00:00Z",
+      "updatedAt": "2026-10-25T12:00:00Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000002",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Vanta",
+      "website": "https://vanta.com",
+      "industry": "B2B SaaS / Automated Security & Compliance",
+      "description": "Automated security and continuous compliance monitoring platform for SOC 2, ISO 27001, and HIPAA.",
+      "problem": "Severe drop-off between demo booking and attendance among time-strapped CISOs and Heads of Engineering.",
+      "decisionMaker": "Stevie Case, Chief Revenue Officer",
+      "personalisedOutreach": "Hi Stevie, scaling Vanta's enterprise trust platform means AEs are pitching overburdened CISOs whose calendars shift hourly. We automated pre-demo verification loops that reduced compliance demo ghosting by 45% for fast-scaling B2B tech without adding rep friction. Happy to send over a 2-page case study if relevant?",
+      "sourceUrls": [
+        "https://vanta.com/company",
+        "https://linkedin.com/in/steviecase"
+      ],
+      "verificationStatus": "Verified with Sources",
+      "verifiedFacts": [
+        "Stevie Case leads global revenue & GTM",
+        "SOC 2 / ISO 27001 market leader",
+        "Buyers are CISOs with extreme calendar congestion"
+      ],
+      "assumptions": [
+        "Outbound AE ghost rate peaks when meetings booked >3 days out"
+      ],
+      "createdAt": "2026-10-25T12:15:00Z",
+      "updatedAt": "2026-10-25T12:15:00Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000003",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "ClickUp",
+      "website": "https://clickup.com",
+      "industry": "B2B SaaS / Collaborative Work OS",
+      "description": "All-in-one productivity and project management platform with AI-powered task workflows.",
+      "problem": "Inbound demo decay: high volume of freemium accounts book enterprise migration demos but ghost when meetings are set >48h out.",
+      "decisionMaker": "Matt Bauman, Global VP of Sales",
+      "personalisedOutreach": "Hi Matt, huge fan of ClickUp 3.0. With thousands of teams upgrading from free tiers to Enterprise, how does ClickUp prevent the dreaded 48-hour inbound demo decay? We engineered an automated calendar confirmation and prep sequence that cuts no-shows by half. Open to a 3-minute async Loom walkthrough?",
+      "sourceUrls": [
+        "https://clickup.com",
+        "https://linkedin.com/in/mattbauman-sales"
+      ],
+      "verificationStatus": "Verified with Sources",
+      "verifiedFacts": [
+        "Launched ClickUp 3.0 platform",
+        "Freemium to enterprise upgrade motion is core focus",
+        "Global sales team across US & EMEA"
+      ],
+      "assumptions": [
+        "High freemium sign-ups lead to lower intent demo bookings"
+      ],
+      "createdAt": "2026-10-25T12:30:00Z",
+      "updatedAt": "2026-10-25T12:30:00Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000004",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Apollo.io",
+      "website": "https://apollo.io",
+      "industry": "B2B SaaS / Sales Intelligence & GTM Acceleration",
+      "description": "Comprehensive lead intelligence, sequencing, and sales execution platform.",
+      "problem": "Outbound SDR-to-AE handoff friction leading to booked prospect ghosting before discovery calls.",
+      "decisionMaker": "Adam Carr, Chief Revenue Officer",
+      "personalisedOutreach": "Hi Adam, congrats on Apollo's explosive GTM trajectory. Even with stellar sequence automation, SDR-booked discovery calls often leak 30-50% between invite and Zoom. We plug into Apollo to automate pre-meeting prospect intent checks and calendar hold confirmations. Would you be open to comparing notes?",
+      "sourceUrls": [
+        "https://apollo.io",
+        "https://linkedin.com/in/adamcarr-gtm"
+      ],
+      "verificationStatus": "Verified with Sources",
+      "verifiedFacts": [
+        "Unicorn GTM platform with massive SDR user base",
+        "Adam Carr joined as CRO",
+        "Internal dogfooding of sales tools"
+      ],
+      "assumptions": [
+        "High outbound volume creates handoff drop-offs"
+      ],
+      "createdAt": "2026-10-25T12:45:00Z",
+      "updatedAt": "2026-10-25T12:45:00Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000005",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "PostHog",
+      "website": "https://posthog.com",
+      "industry": "B2B SaaS / Developer Product Analytics & DevTools",
+      "description": "All-in-one developer platform for product analytics, session recording, feature flags, and A/B testing.",
+      "problem": "Enterprise/VPC migration drop-off: developer leads book technical discussions but skip if they lack immediate transparent setup specs.",
+      "decisionMaker": "James Hawkins, Co-founder & Co-CEO",
+      "personalisedOutreach": "Hi James, love PostHog's radical transparency and developer-first culture. Noticed engineering teams transitioning to custom VPC deployments sometimes hesitate at the technical evaluation stage. We built a zero-BS, markdown-native pre-meeting architecture briefing tool that lets engineers review specs before jumping on a call. Thought you might find the approach interesting.",
+      "sourceUrls": [
+        "https://posthog.com/handbook",
+        "https://github.com/posthog"
+      ],
+      "verificationStatus": "Verified with Sources",
+      "verifiedFacts": [
+        "James Hawkins Co-founder & CEO",
+        "Public handbook and open-source pricing",
+        "Developers hate generic sales calls"
+      ],
+      "assumptions": [
+        "VPC and Enterprise migrations require deep technical pre-reads"
+      ],
+      "createdAt": "2026-10-25T13:00:00Z",
+      "updatedAt": "2026-10-25T13:00:00Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "l0000000-0000-0000-0000-000000000001",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "ClickUp",
+      "website": "https://clickup.com",
+      "contactPerson": "Matt Bauman, Global VP of Sales",
+      "businessProblem": "Inbound demo decay: high volume of freemium accounts book enterprise migration demos but ghost when meetings are set >48h out.",
+      "outreachStatus": "Meeting Booked",
+      "lastActionDate": "2026-10-27",
+      "nextFollowUpDate": "2026-10-28",
+      "priority": "High",
+      "nextAction": "Deploy Pre-Demo Show-Up Safeguard: Send calendar agenda with 1-click reschedule options & 90-sec preview video.",
+      "reasonForPriority": "Active meeting booked for today! Highest immediate revenue risk; converting this meeting preserves a potential $30k+ enterprise pilot.",
+      "createdAt": "2026-10-25T13:10:00Z",
+      "updatedAt": "2026-10-27T10:00:00Z"
+    },
+    {
+      "id": "l0000000-0000-0000-0000-000000000002",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Customer.io",
+      "website": "https://customer.io",
+      "contactPerson": "Chris Parker, VP of Global Sales",
+      "businessProblem": "High sales engineering capacity waste from mid-market demo no-shows during competitive evaluation against Braze/Iterable.",
+      "outreachStatus": "Contacted",
+      "lastActionDate": "2026-10-26",
+      "nextFollowUpDate": "2026-10-29",
+      "priority": "High",
+      "nextAction": "Send Value-Add Follow-Up #1: Share 60-sec interactive demo show-up rate benchmark tailored to messaging SaaS.",
+      "reasonForPriority": "Tier-1 ICP; large sales org; high ACV ($15k-$60k); high cost per wasted sales engineer demo slot.",
+      "createdAt": "2026-10-25T13:15:00Z",
+      "updatedAt": "2026-10-26T11:00:00Z"
+    },
+    {
+      "id": "l0000000-0000-0000-0000-000000000003",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Vanta",
+      "website": "https://vanta.com",
+      "contactPerson": "Stevie Case, Chief Revenue Officer",
+      "businessProblem": "Severe drop-off between demo booking and attendance among time-strapped CISOs and Heads of Engineering.",
+      "outreachStatus": "Followed Up",
+      "lastActionDate": "2026-10-26",
+      "nextFollowUpDate": "2026-10-27",
+      "priority": "High",
+      "nextAction": "Send Multi-Channel LinkedIn InMail referencing recent enterprise compliance velocity benchmarks.",
+      "reasonForPriority": "Overdue follow-up! Rapid enterprise expansion; aggressive GTM targets; CRO prioritizes AE pipeline conversion efficiency.",
+      "createdAt": "2026-10-25T13:20:00Z",
+      "updatedAt": "2026-10-25T15:00:00Z"
+    },
+    {
+      "id": "l0000000-0000-0000-0000-000000000006",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Ramp",
+      "website": "https://ramp.com",
+      "contactPerson": "Colin Kennedy, Chief Business Officer",
+      "businessProblem": "Finance team demo no-shows due to end-of-month accounting closes.",
+      "outreachStatus": "Not Started",
+      "lastActionDate": "2026-10-26",
+      "nextFollowUpDate": "2026-10-27",
+      "priority": "High",
+      "nextAction": "Execute initial cold email referencing automated spend governance sync.",
+      "reasonForPriority": "High ACV fintech; overdue outreach task; executive calendar requires immediate touchpoint.",
+      "createdAt": "2026-10-26T09:00:00Z",
+      "updatedAt": "2026-10-26T09:00:00Z"
+    },
+    {
+      "id": "l0000000-0000-0000-0000-000000000004",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Apollo.io",
+      "website": "https://apollo.io",
+      "contactPerson": "Adam Carr, Chief Revenue Officer",
+      "businessProblem": "Outbound SDR-to-AE handoff friction leading to booked prospect ghosting before discovery calls.",
+      "outreachStatus": "Contacted",
+      "lastActionDate": "2026-10-26",
+      "nextFollowUpDate": "2026-10-30",
+      "priority": "Medium",
+      "nextAction": "Send Follow-Up #2 with data snippet on SDR-to-AE pipeline conversion benchmarks.",
+      "reasonForPriority": "Strong ICP and massive rep volume, but internal tooling density means sales cycle may require deeper RevOps integration proof.",
+      "createdAt": "2026-10-25T13:25:00Z",
+      "updatedAt": "2026-10-25T13:25:00Z"
+    },
+    {
+      "id": "l0000000-0000-0000-0000-000000000005",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "PostHog",
+      "website": "https://posthog.com",
+      "contactPerson": "James Hawkins, Co-founder & Co-CEO",
+      "businessProblem": "Enterprise/VPC migration drop-off: developer leads book technical discussions but skip if they lack immediate transparent setup specs.",
+      "outreachStatus": "Contacted",
+      "lastActionDate": "2026-10-26",
+      "nextFollowUpDate": "2026-10-30",
+      "priority": "Medium",
+      "nextAction": "Monitor public GitHub discussion & send gentle email follow-up with open-source workflow integration repo.",
+      "reasonForPriority": "Non-traditional sales motion (PLG/developer focus); high strategic value and brand prestige, but longer sales qualification cycle requiring technical nuance.",
+      "createdAt": "2026-10-25T13:30:00Z",
+      "updatedAt": "2026-10-25T13:30:00Z"
+    },
+    {
+      "id": "l0000000-0000-0000-0000-000000000007",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Loom",
+      "website": "https://loom.com",
+      "contactPerson": "Nicole Herskowitz, VP Marketing",
+      "businessProblem": "Asynchronous evaluation drop-offs after initial self-serve signup.",
+      "outreachStatus": "Demo Attended",
+      "lastActionDate": "2026-10-27",
+      "nextFollowUpDate": "2026-10-29",
+      "priority": "Medium",
+      "nextAction": "Deliver customized 3-tier enterprise rollout proposal.",
+      "reasonForPriority": "Already completed demo; active buyer intent; moving toward closing phase.",
+      "createdAt": "2026-10-26T10:15:00Z",
+      "updatedAt": "2026-10-27T16:00:00Z"
+    },
+    {
+      "id": "l0000000-0000-0000-0000-000000000008",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "businessName": "Linear",
+      "website": "https://linear.app",
+      "contactPerson": "Karri Saarinen, CEO & Co-founder",
+      "businessProblem": "High-growth engineering teams outgrowing issue tracking without structured onboarding calls.",
+      "outreachStatus": "Followed Up",
+      "lastActionDate": "2026-10-27",
+      "nextFollowUpDate": "2026-10-30",
+      "priority": "Low",
+      "nextAction": "Send technical case study on keyboard-first issue workflow optimizations.",
+      "reasonForPriority": "Product-led growth motion makes high-touch sales secondary; keep on low-frequency nurture.",
+      "createdAt": "2026-10-26T11:30:00Z",
+      "updatedAt": "2026-10-27T14:00:00Z"
+    }
+  ],
+  "growthPlans": [
+    {
+      "id": "plan-1793181071356",
+      "selectedActivities": [
+        "Follow up with existing leads",
+        "Schedule demos with interested prospects"
+      ],
+      "totalWeeklyMinutes": 550,
+      "dailyPlans": [
+        {
+          "day": 1,
+          "dayName": "Monday",
+          "tasks": [
+            {
+              "id": "M-T1",
+              "activity": "Follow up with existing leads",
+              "minutes": 60,
+              "target": "Engage with 20 high-priority leads (no response from previous outreach). Aim for 5 meaningful interactions (reply, click, open).",
+              "expectedOutcome": "Re-engage dormant leads and identify warm prospects for further action.",
+              "status": "Completed"
+            },
+            {
+              "id": "M-T2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 50,
+              "target": "Reach out to 10 interested prospects (recent MQLs or those who showed initial interest but didn't book). Aim for 2 new demos booked.",
+              "expectedOutcome": "Increase the number of scheduled demos in the pipeline by converting recent interest.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 110,
+          "contingencyPlan": "If daily targets are missed, analyze the specific leads and outreach methods used. Document common objections or lack of engagement. Prepare a brief summary for the manager to discuss adjustments for the following day's strategy."
+        },
+        {
+          "day": 2,
+          "dayName": "Tuesday",
+          "tasks": [
+            {
+              "id": "Tu-T1",
+              "activity": "Follow up with existing leads",
+              "minutes": 65,
+              "target": "Conduct second-touch follow-ups with 25 existing leads using an alternative channel (e.g., LinkedIn, personalized email). Aim for 6 meaningful interactions.",
+              "expectedOutcome": "Diversify outreach efforts and uncover new engagement points for leads who didn't respond to initial contact.",
+              "status": "Not Started"
+            },
+            {
+              "id": "Tu-T2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 50,
+              "target": "Follow up with 12 prospects identified from Monday's activities or recent website visitors. Aim for 2 new demos booked.",
+              "expectedOutcome": "Convert newly engaged leads and recent website interest into scheduled demo appointments.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 115,
+          "contingencyPlan": "If daily targets are missed, analyze the specific leads and outreach methods used. Document common objections or lack of engagement. Prepare a brief summary for the manager to discuss adjustments for the following day's strategy."
+        },
+        {
+          "day": 3,
+          "dayName": "Wednesday",
+          "tasks": [
+            {
+              "id": "W-T1",
+              "activity": "Follow up with existing leads",
+              "minutes": 60,
+              "target": "Send personalized outreach to 20 existing leads who opened previous emails but did not click or respond. Aim for 4 meaningful interactions.",
+              "expectedOutcome": "Deepen engagement with curious leads by addressing their specific interests or potential questions.",
+              "status": "Not Started"
+            },
+            {
+              "id": "W-T2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 50,
+              "target": "Focus on re-engaging 10 prospects who previously booked a demo but did not attend. Aim for 2 demos re-scheduled.",
+              "expectedOutcome": "Recover lost demo opportunities and reduce the drop-off rate between booking and attendance.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 110,
+          "contingencyPlan": "If daily targets are missed, analyze the specific leads and outreach methods used. Document common objections or lack of engagement. Prepare a brief summary for the manager to discuss adjustments for the following day's strategy."
+        },
+        {
+          "day": 4,
+          "dayName": "Thursday",
+          "tasks": [
+            {
+              "id": "Th-T1",
+              "activity": "Follow up with existing leads",
+              "minutes": 65,
+              "target": "Conduct final nudges for 25 existing leads before moving them to a long-term nurture sequence, or urgent follow-ups. Aim for 5 meaningful interactions.",
+              "expectedOutcome": "Clear out immediate action items, categorize leads appropriately, and ensure no high-potential leads are missed.",
+              "status": "Not Started"
+            },
+            {
+              "id": "Th-T2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 50,
+              "target": "Reach out to 12 high-intent prospects identified through CRM scoring or recent activity. Aim for 2 new demos booked.",
+              "expectedOutcome": "Capitalize on immediate conversion opportunities by scheduling demos with the most engaged prospects.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 115,
+          "contingencyPlan": "If daily targets are missed, analyze the specific leads and outreach methods used. Document common objections or lack of engagement. Prepare a brief summary for the manager to discuss adjustments for the following day's strategy."
+        },
+        {
+          "day": 5,
+          "dayName": "Friday",
+          "tasks": [
+            {
+              "id": "F-T1",
+              "activity": "Follow up with existing leads",
+              "minutes": 50,
+              "target": "Perform quick check-ins with 20 existing leads and prioritize 10 leads for next week's outreach based on engagement. Aim for 3 meaningful interactions.",
+              "expectedOutcome": "Maintain momentum, ensure no urgent leads are missed over the weekend, and prepare for an efficient start to the next week.",
+              "status": "Not Started"
+            },
+            {
+              "id": "F-T2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 50,
+              "target": "Confirm next week's scheduled demos with 10 prospects, and attempt last-minute bookings for early next week. Aim for 2 demos confirmed/booked.",
+              "expectedOutcome": "Ensure a strong start to next week's demo pipeline and minimize no-shows for upcoming appointments.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 100,
+          "contingencyPlan": "If daily targets are missed, analyze the specific leads and outreach methods used. Document common objections or lack of engagement. Prepare a brief summary for the manager to discuss adjustments for the following day's strategy."
+        }
+      ],
+      "createdAt": "2026-10-28T09:51:11.356Z"
+    },
+    {
+      "id": "plan-1793180883291",
+      "selectedActivities": [
+        "Follow up with existing leads",
+        "Schedule demos with interested prospects"
+      ],
+      "totalWeeklyMinutes": 600,
+      "dailyPlans": [
+        {
+          "day": 1,
+          "dayName": "Monday",
+          "tasks": [
+            {
+              "id": "M1",
+              "activity": "Follow up with existing leads",
+              "minutes": 30,
+              "target": "Identify 15 high-priority leads from CRM for initial outreach.",
+              "expectedOutcome": "A prioritized list of 15 leads with contact information.",
+              "status": "Completed"
+            },
+            {
+              "id": "M2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 60,
+              "target": "Send personalized emails/LinkedIn messages to the 15 identified high-priority leads, inviting them to a demo.",
+              "expectedOutcome": "15 personalized outreach messages sent.",
+              "status": "Not Started"
+            },
+            {
+              "id": "M3",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 30,
+              "target": "Review the upcoming demo schedule for the week and identify 5 unconfirmed or at-risk demos (e.g., booked >48hrs ago without confirmation).",
+              "expectedOutcome": "A list of 5 demos requiring proactive confirmation.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 120,
+          "contingencyPlan": "If fewer than 15 high-priority leads are found, broaden search criteria to include recently engaged leads. If initial outreach response is lower than expected, refine messaging for Tuesday's follow-up."
+        },
+        {
+          "day": 2,
+          "dayName": "Tuesday",
+          "tasks": [
+            {
+              "id": "T1",
+              "activity": "Follow up with existing leads",
+              "minutes": 45,
+              "target": "Send a second personalized follow-up to 10 leads from Monday's outreach who have not yet responded.",
+              "expectedOutcome": "10 follow-up messages sent, increasing engagement chances.",
+              "status": "Not Started"
+            },
+            {
+              "id": "T2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 45,
+              "target": "Proactively confirm 10 upcoming demos (scheduled for Wednesday/Thursday) via email or quick phone call.",
+              "expectedOutcome": "10 demos confirmed, reducing no-show rates.",
+              "status": "Not Started"
+            },
+            {
+              "id": "T3",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 30,
+              "target": "Reach out to 5 prospects who previously booked but either didn't show or cancelled, offering to reschedule.",
+              "expectedOutcome": "5 re-engagement attempts made.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 120,
+          "contingencyPlan": "If fewer than 10 non-responders from Monday, allocate more time to identifying new high-potential leads. If demo confirmation rate is low, escalate specific cases to manager for potential intervention or alternative contact methods."
+        },
+        {
+          "day": 3,
+          "dayName": "Wednesday",
+          "tasks": [
+            {
+              "id": "W1",
+              "activity": "Follow up with existing leads",
+              "minutes": 45,
+              "target": "Respond to all inbound replies (expected 5-7) from Monday/Tuesday's outreach, qualifying interest and moving leads to the next stage.",
+              "expectedOutcome": "All inbound replies addressed, interested leads identified.",
+              "status": "Not Started"
+            },
+            {
+              "id": "W2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 45,
+              "target": "Identify 10 new prospects from recent inbound inquiries (e.g., website forms, content downloads) and send initial demo scheduling outreach.",
+              "expectedOutcome": "10 new demo scheduling requests sent, expanding the pipeline.",
+              "status": "Not Started"
+            },
+            {
+              "id": "W3",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 30,
+              "target": "Update CRM with all interactions, demo statuses, and lead qualifications from Monday-Wednesday.",
+              "expectedOutcome": "CRM accurately reflects all recent lead and demo activities.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 120,
+          "contingencyPlan": "If few replies are received, spend more time on new prospect identification from alternative sources. If no new inbound inquiries, focus on targeted cold outreach to accounts matching ideal customer profile."
+        },
+        {
+          "day": 4,
+          "dayName": "Thursday",
+          "tasks": [
+            {
+              "id": "H1",
+              "activity": "Follow up with existing leads",
+              "minutes": 45,
+              "target": "Conduct a final follow-up for 8-10 leads from Monday/Tuesday's outreach who still haven't responded, offering a different value proposition or resource.",
+              "expectedOutcome": "8-10 final follow-up messages sent, exhausting initial outreach sequence.",
+              "status": "Not Started"
+            },
+            {
+              "id": "H2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 45,
+              "target": "Proactively confirm 10 upcoming demos for Friday/Monday via email or quick phone call.",
+              "expectedOutcome": "10 demos confirmed, minimizing weekend no-shows.",
+              "status": "Not Started"
+            },
+            {
+              "id": "H3",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 30,
+              "target": "Process any new demo bookings (expected 3-5) resulting from Wednesday's outreach, sending calendar invites and necessary pre-demo materials.",
+              "expectedOutcome": "3-5 new demos formally scheduled and confirmed.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 120,
+          "contingencyPlan": "If few new bookings, spend more time on re-engaging past no-shows or exploring alternative lead sources. If confirmation calls are not connecting, try alternative channels like SMS or LinkedIn messages."
+        },
+        {
+          "day": 5,
+          "dayName": "Friday",
+          "tasks": [
+            {
+              "id": "F1",
+              "activity": "Follow up with existing leads",
+              "minutes": 45,
+              "target": "Review all leads engaged this week (20-30 leads), categorize their status (e.g., interested, not interested, follow-up next week), and update CRM.",
+              "expectedOutcome": "Cleaned and categorized lead pipeline for the upcoming week.",
+              "status": "Not Started"
+            },
+            {
+              "id": "F2",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 30,
+              "target": "Send 'pre-demo reminder' emails to all demos (expected 5-7) scheduled for Monday, including a clear agenda and call-to-action.",
+              "expectedOutcome": "5-7 Monday demos reminded, further reducing no-show risk.",
+              "status": "Not Started"
+            },
+            {
+              "id": "F3",
+              "activity": "Schedule demos with interested prospects",
+              "minutes": 45,
+              "target": "Analyze weekly performance: number of outreaches, replies, demos scheduled, demos confirmed, and no-show rate. Prepare a brief summary for the manager.",
+              "expectedOutcome": "A concise weekly performance summary with key metrics and insights.",
+              "status": "Not Started"
+            }
+          ],
+          "totalMinutes": 120,
+          "contingencyPlan": "If data analysis takes longer than expected, prioritize key metrics (demos scheduled/confirmed) for the summary. If fewer leads to categorize, spend more time on refining next week's outreach strategy or researching new lead generation tactics."
+        }
+      ],
+      "createdAt": "2026-10-28T09:48:03.291Z"
+    }
+  ],
+  "founderUpdates": [
+    {
+      "id": "update-1793181080044",
+      "title": "Executive Founder Update: GrowthOps Test",
+      "date": "2023-10-27",
+      "mainProblem": "The primary bottleneck in our funnel is the high demo ghosting rate, with only 37.5% of booked meetings resulting in attended demos.",
+      "keyFindings": [
+        "Initial outreach is effective, with 80% of identified leads contacted.",
+        "A moderate 25% response rate from contacted leads, leading to 10% of contacted leads booking a meeting.",
+        "The most significant drop-off occurs between meetings booked (8) and demos attended (3), indicating a 62.5% no-show rate.",
+        "For those who do attend demos, follow-up interest is strong at 66.7%, suggesting product-market fit once engagement occurs."
+      ],
+      "actionsTaken": [
+        "Completed initial lead research to build out the target pipeline.",
+        "Executed initial outreach campaigns to identified prospects.",
+        "Established the process and tools for demo qualification and scheduling."
+      ],
+      "nextWeekPriorities": [
+        "Implement a pre-demo engagement strategy to reduce no-shows (e.g., confirmation calls, value-add content).",
+        "Analyze and refine outreach messaging to improve response-to-meeting conversion rates.",
+        "Review and tighten lead qualification criteria to ensure higher intent leads are prioritized for demos."
+      ],
+      "performanceMetrics": [
+        {
+          "metric": "Demo Attended Rate",
+          "current": "37.5%",
+          "target": "60%"
+        },
+        {
+          "metric": "Meetings Booked Rate (from Contacted)",
+          "current": "10%",
+          "target": "20%"
+        }
+      ],
+      "risksAndUncertainties": [
+        "Continued low demo attendance despite new engagement strategies.",
+        "The quality of identified leads may be impacting overall funnel efficiency and conversion rates.",
+        "Market receptiveness to our initial outreach could be lower than anticipated, requiring significant messaging adjustments."
+      ],
+      "recommendedNextSteps": [
+        "Develop and deploy a robust pre-demo sequence including calendar invites, reminder emails, and a brief value-add resource.",
+        "Conduct A/B testing on outreach subject lines and body copy to optimize response rates and meeting bookings.",
+        "Establish clearer, more stringent qualification criteria for leads before booking demos to ensure higher intent and reduce no-shows."
+      ],
+      "createdAt": "2026-10-28T09:51:20.044Z"
+    },
+    {
+      "id": "update-1793180891258",
+      "title": "GrowthOps Test: Executive Founder Update Memo",
+      "date": "October 26, 2023",
+      "mainProblem": "The primary bottleneck in our sales funnel is the low demo attendance rate (37.5%), indicating significant 'ghosting' post-booking and hindering pipeline progression.",
+      "keyFindings": [
+        "Strong initial outreach (80% contacted) and response rates (25%) indicate effective top-of-funnel engagement.",
+        "A significant drop-off occurs between meetings booked (8) and demos attended (3), with only 37.5% showing up.",
+        "However, for those who do attend, follow-up interest is high (66.7%), suggesting the quality of engaged prospects is good.",
+        "Overall funnel efficiency from identified to demo attended is 3% (3/100)."
+      ],
+      "actionsTaken": [
+        "Completed comprehensive lead research to expand our target market.",
+        "Executed initial outreach campaigns to identified prospects.",
+        "Set up the demo qualification process to streamline scheduling and preparation."
+      ],
+      "nextWeekPriorities": [
+        "Implement pre-demo confirmation strategies (e.g., calendar invites, reminder emails/SMS) to reduce ghosting.",
+        "Refine qualification criteria to ensure higher intent before booking a demo.",
+        "Analyze demo scheduling patterns to identify optimal times for attendance."
+      ],
+      "performanceMetrics": [
+        {
+          "metric": "Demo Attendance Rate",
+          "current": "37.5%",
+          "target": "60%"
+        },
+        {
+          "metric": "Meetings Booked",
+          "current": "8",
+          "target": "15"
+        }
+      ],
+      "risksAndUncertainties": [
+        "Continued low demo attendance will severely impact our ability to generate new pipeline and hit revenue targets.",
+        "Our current qualification process might not be robust enough to filter out low-intent prospects effectively.",
+        "Potential for lead fatigue if outreach frequency or messaging is not optimized."
+      ],
+      "recommendedNextSteps": [
+        "Conduct A/B testing on pre-demo communication to improve show-up rates.",
+        "Review and potentially revise our demo booking process to include stronger commitment signals.",
+        "Gather qualitative feedback from prospects who ghosted to understand underlying reasons."
+      ],
+      "createdAt": "2026-10-28T09:48:11.258Z"
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "e0000000-0000-0000-0000-000000000001",
+      "candidateId": "c0000000-0000-0000-0000-000000000001",
+      "candidateName": "Abhi Pandey",
+      "scores": {
+        "problemSolving": 25,
+        "analyticalThinking": 20,
+        "executionAbility": 23.5,
+        "communication": 13.5,
+        "ownershipDetail": 12.5
+      },
+      "totalScore": 94.5,
+      "evidence": {
+        "problemSolving": "Correctly pinpointed the 62.5% demo drop-off as the primary lever rather than top-of-funnel volume. Designed a pre-demo qualification brief.",
+        "analyticalThinking": "Computed exact funnel metrics (Contact 80%, Response 25%, Meeting 10%, Demo attendance 37.5%, Follow-up 66.7%) without discrepancies.",
+        "executionAbility": "Researched 5 verified B2B SaaS accounts with hyper-personalized outreach and concrete source URLs. Outlined a 120 min/day schedule.",
+        "communication": "Crisp, structured executive memo format with clear next-week priorities and risk analysis.",
+        "ownershipDetail": "Highlighted calendar decay and built an async Loom fallback protocol for prospective no-shows."
+      },
+      "strengths": [
+        "Exceptional mathematical accuracy on conversion rates and drop-off levers",
+        "Pinpointed demo attendance bottleneck as highest ROI lever for near-term revenue",
+        "Disciplined 120 min/day growth execution schedule with daily contingency actions"
+      ],
+      "areasForImprovement": [
+        "Could quantify financial cost per lost demo in the executive summary",
+        "Could expand on multi-channel follow-up cadence beyond email"
+      ],
+      "followUpInterviewQuestions": [
+        "How would you measure whether a 60-second video brief actually increases demo attendance vs. adding friction?",
+        "If ClickUp ghosts on today's scheduled meeting, what is your exact 24-hour response protocol?"
+      ],
+      "suggestedRecommendation": "Strong Hire",
+      "isAIAdvisory": true,
+      "finalStatus": "Shortlist",
+      "evaluatedAt": "2026-10-28T09:51:39.130Z",
+      "overrideReason": "Demonstrated superior depth in live interview discussion.",
+      "overriddenBy": "Head of Growth (Admin)"
+    },
+    {
+      "id": "e0000000-0000-0000-0000-000000000002",
+      "candidateId": "c0000000-0000-0000-0000-000000000002",
+      "candidateName": "Priya Sharma",
+      "scores": {
+        "problemSolving": 22,
+        "analyticalThinking": 18.5,
+        "executionAbility": 22,
+        "communication": 13,
+        "ownershipDetail": 12.5
+      },
+      "totalScore": 88,
+      "evidence": {
+        "problemSolving": "Selected Follow up with existing leads & Schedule demos with interested prospects to maximize near-term pipeline velocity within 10 hours.",
+        "analyticalThinking": "Recognized 75% response drop-off but correctly prioritized meeting-to-demo attendance due to sunk SDR effort.",
+        "executionAbility": "Researched authentic decision makers with verified LinkedIn profiles.",
+        "communication": "Well-structured tables and crisp email copy.",
+        "ownershipDetail": "Added proactive reminder tags on overdue leads."
+      },
+      "strengths": [
+        "Rigorous lead qualification framework",
+        "Accurate funnel calculations and clear metric labeling",
+        "Disciplined time allocation under 2 hours daily"
+      ],
+      "areasForImprovement": [
+        "Founder memo could include more aggressive 90-day targets",
+        "Outreach copy for developer-focused PostHog was slightly generic"
+      ],
+      "followUpInterviewQuestions": [
+        "Why did you choose follow-ups over net-new account research for your first 2 days?",
+        "How would you differentiate an unverified assumption from a verified buyer problem?"
+      ],
+      "suggestedRecommendation": "Hire",
+      "isAIAdvisory": true,
+      "finalStatus": "Move to Interview",
+      "evaluatedAt": "2026-10-26T16:00:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "84f6f16a-ea43-4627-9da8-5dd5be281c60",
+      "timestamp": "2026-10-28T10:30:28.233Z",
+      "userId": "a0000000-0000-0000-0000-000000000003",
+      "userEmail": "abhi.intern@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000003",
+      "details": {
+        "email": "abhi.intern@growthops.com",
+        "role": "candidate"
+      }
+    },
+    {
+      "id": "83afa025-9d8a-44e0-ba0f-662afaa38e4a",
+      "timestamp": "2026-10-28T10:30:25.058Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000001",
+      "details": {
+        "email": "admin@growthops.com",
+        "role": "admin"
+      }
+    },
+    {
+      "id": "44f94f74-18eb-40f1-9cc0-781fe8df23c4",
+      "timestamp": "2026-10-28T10:30:23.173Z",
+      "userId": "a0000000-0000-0000-0000-000000000003",
+      "userEmail": "abhi.intern@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000003",
+      "details": {
+        "email": "abhi.intern@growthops.com",
+        "role": "candidate"
+      }
+    },
+    {
+      "id": "389f2de2-e9e0-4674-9caa-58af3b4463ec",
+      "timestamp": "2026-10-28T10:15:20.916Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000001",
+      "details": {
+        "email": "admin@growthops.com",
+        "role": "admin"
+      }
+    },
+    {
+      "id": "4f6ae3fc-9298-4f41-a409-6a924ca45410",
+      "timestamp": "2026-10-28T10:15:15.701Z",
+      "action": "SAVE_SUBMISSION",
+      "entityType": "candidate_submission",
+      "entityId": "c0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateName": "Abhi Pandey"
+      }
+    },
+    {
+      "id": "cf78ceb5-2699-4a3f-af2a-2ac6ea1a9cd9",
+      "timestamp": "2026-10-28T10:15:14.334Z",
+      "action": "SAVE_SUBMISSION",
+      "entityType": "candidate_submission",
+      "entityId": "c0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateName": "Abhi Pandey"
+      }
+    },
+    {
+      "id": "c5354f78-57ea-438c-8c18-85731f62afce",
+      "timestamp": "2026-10-28T10:15:06.473Z",
+      "action": "SAVE_SUBMISSION",
+      "entityType": "candidate_submission",
+      "entityId": "c0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateName": "Abhi Pandey"
+      }
+    },
+    {
+      "id": "f1aaa163-ab1d-4aa9-b844-7829f9ebdc09",
+      "timestamp": "2026-10-28T10:13:34.107Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "UPDATE_CANDIDATE_STATUS",
+      "entityType": "candidate",
+      "entityId": "c0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateName": "Abhi Pandey",
+        "previousStatus": "shortlisted",
+        "newStatus": "under_review",
+        "notes": "Candidate submitted take-home assessment."
+      }
+    },
+    {
+      "id": "aa97cddd-47e8-433f-aa6e-ca15d57e17c9",
+      "timestamp": "2026-10-28T10:13:34.084Z",
+      "action": "SAVE_SUBMISSION",
+      "entityType": "candidate_submission",
+      "entityId": "c0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateName": "Abhi Pandey"
+      }
+    },
+    {
+      "id": "3df9638b-51ee-445a-9467-c062ef6d2640",
+      "timestamp": "2026-10-28T10:13:31.206Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000001",
+      "details": {
+        "email": "admin@growthops.com",
+        "role": "admin"
+      }
+    },
+    {
+      "id": "a4ef1865-49fe-4770-ab3a-440c32d7325b",
+      "timestamp": "2026-10-28T10:13:24.708Z",
+      "action": "SAVE_SUBMISSION",
+      "entityType": "candidate_submission",
+      "entityId": "c0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateName": "Abhi Pandey"
+      }
+    },
+    {
+      "id": "9460eec8-92cf-44d8-a7f7-750c6baedfa1",
+      "timestamp": "2026-10-28T09:58:21.131Z",
+      "userId": "a0000000-0000-0000-0000-000000000003",
+      "userEmail": "abhi.intern@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000003",
+      "details": {
+        "email": "abhi.intern@growthops.com",
+        "role": "candidate"
+      }
+    },
+    {
+      "id": "d885ccc0-b93d-410e-a374-e06cab005c7b",
+      "timestamp": "2026-10-28T09:55:48.083Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000001",
+      "details": {
+        "email": "admin@growthops.com",
+        "role": "admin"
+      }
+    },
+    {
+      "id": "bd1e8701-b2b6-429a-8ac4-cd57e09169e2",
+      "timestamp": "2026-10-28T09:51:39.191Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "UPDATE_CANDIDATE_STATUS",
+      "entityType": "candidate",
+      "entityId": "4b2415ae-40a2-434b-a109-baa93bc36688",
+      "details": {
+        "candidateName": "Jordan Lee",
+        "previousStatus": "under_review",
+        "newStatus": "shortlisted"
+      }
+    },
+    {
+      "id": "10bcddfc-5ad8-4bd5-8ccc-527f9c4c1e9f",
+      "timestamp": "2026-10-28T09:51:39.184Z",
+      "action": "SAVE_SUBMISSION",
+      "entityType": "candidate_submission",
+      "entityId": "4b2415ae-40a2-434b-a109-baa93bc36688",
+      "details": {
+        "candidateName": "Jordan Lee"
+      }
+    },
+    {
+      "id": "2c9f2f30-c434-4d4c-a608-722c5802a788",
+      "timestamp": "2026-10-28T09:51:39.172Z",
+      "action": "REGISTER_CANDIDATE",
+      "entityType": "candidate",
+      "entityId": "4b2415ae-40a2-434b-a109-baa93bc36688",
+      "details": {
+        "name": "Jordan Lee",
+        "email": "jordan.lee@test.com"
+      }
+    },
+    {
+      "id": "986df62d-86b4-4313-9511-7347a0d16eb0",
+      "timestamp": "2026-10-28T09:51:39.134Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "SCORE_OVERRIDE",
+      "entityType": "evaluation",
+      "entityId": "e0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateId": "c0000000-0000-0000-0000-000000000001",
+        "newTotalScore": 94.5,
+        "overrideReason": "Demonstrated superior depth in live interview discussion.",
+        "overriddenBy": "Head of Growth (Admin)",
+        "finalStatus": "Shortlist"
+      }
+    },
+    {
+      "id": "033357fa-b560-48a4-9fc8-48d55901aa94",
+      "timestamp": "2026-10-28T09:50:51.452Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "DELETE_LEAD",
+      "entityType": "lead",
+      "entityId": "f230c469-3f1c-4c03-8fae-65f8fae979c6",
+      "details": {
+        "businessName": "Retool Test Account"
+      }
+    },
+    {
+      "id": "5df7e388-89aa-4b74-9d69-3c5d95e794f2",
+      "timestamp": "2026-10-28T09:50:51.445Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "UPDATE_LEAD",
+      "entityType": "lead",
+      "entityId": "f230c469-3f1c-4c03-8fae-65f8fae979c6",
+      "details": {
+        "previous": {
+          "id": "f230c469-3f1c-4c03-8fae-65f8fae979c6",
+          "businessName": "Retool Test Account",
+          "website": "https://retool.com",
+          "contactPerson": "David Hsu, CEO",
+          "businessProblem": "Internal tool demo ghosting",
+          "outreachStatus": "Contacted",
+          "lastActionDate": "2026-10-26",
+          "nextFollowUpDate": "2026-10-27",
+          "priority": "High",
+          "nextAction": "Send automated reminder test",
+          "reasonForPriority": "Tier-1 developer platform",
+          "createdAt": "2026-10-28T09:50:51.428Z",
+          "updatedAt": "2026-10-28T09:50:51.428Z"
+        },
+        "updated": {
+          "id": "f230c469-3f1c-4c03-8fae-65f8fae979c6",
+          "businessName": "Retool Test Account",
+          "website": "https://retool.com",
+          "contactPerson": "David Hsu, CEO",
+          "businessProblem": "Internal tool demo ghosting",
+          "outreachStatus": "Meeting Booked",
+          "lastActionDate": "2026-10-26",
+          "nextFollowUpDate": "2026-10-27",
+          "priority": "High",
+          "nextAction": "Send automated reminder test",
+          "reasonForPriority": "Tier-1 developer platform",
+          "createdAt": "2026-10-28T09:50:51.428Z",
+          "updatedAt": "2026-10-28T09:50:51.444Z"
+        }
+      }
+    },
+    {
+      "id": "d1c8957d-f4da-4edb-86e6-1a547a2a8db5",
+      "timestamp": "2026-10-28T09:50:51.429Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "CREATE_LEAD",
+      "entityType": "lead",
+      "entityId": "f230c469-3f1c-4c03-8fae-65f8fae979c6",
+      "details": {
+        "businessName": "Retool Test Account",
+        "priority": "High"
+      }
+    },
+    {
+      "id": "b948f0f2-e74b-4458-91f0-92185d546ef3",
+      "timestamp": "2026-10-28T09:50:35.938Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000001",
+      "details": {
+        "email": "admin@growthops.com",
+        "role": "admin"
+      }
+    },
+    {
+      "id": "9015d095-da29-4c76-8d3f-dddd0f9fafd4",
+      "timestamp": "2026-10-28T09:48:28.121Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "UPDATE_CANDIDATE_STATUS",
+      "entityType": "candidate",
+      "entityId": "ec9f80a5-fc5d-4376-bf53-704fa868ed31",
+      "details": {
+        "candidateName": "Jordan Lee",
+        "previousStatus": "under_review",
+        "newStatus": "shortlisted"
+      }
+    },
+    {
+      "id": "e75c91d9-14fe-4bfe-ab32-f9a6d26a8fa0",
+      "timestamp": "2026-10-28T09:48:28.116Z",
+      "action": "SAVE_SUBMISSION",
+      "entityType": "candidate_submission",
+      "entityId": "ec9f80a5-fc5d-4376-bf53-704fa868ed31",
+      "details": {
+        "candidateName": "Jordan Lee"
+      }
+    },
+    {
+      "id": "8dc5b944-b922-4ef0-b008-406f7cf125a4",
+      "timestamp": "2026-10-28T09:48:28.108Z",
+      "action": "REGISTER_CANDIDATE",
+      "entityType": "candidate",
+      "entityId": "ec9f80a5-fc5d-4376-bf53-704fa868ed31",
+      "details": {
+        "name": "Jordan Lee",
+        "email": "jordan.lee@test.com"
+      }
+    },
+    {
+      "id": "c6ff9f2c-b91c-4404-863a-a1ff56d71be2",
+      "timestamp": "2026-10-28T09:48:28.073Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "SCORE_OVERRIDE",
+      "entityType": "evaluation",
+      "entityId": "e0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateId": "c0000000-0000-0000-0000-000000000001",
+        "newTotalScore": 94.5,
+        "overrideReason": "Demonstrated superior depth in live interview discussion.",
+        "overriddenBy": "Head of Growth (Admin)",
+        "finalStatus": "Shortlist"
+      }
+    },
+    {
+      "id": "734cb21a-784a-46b9-a36d-e1ed52dca884",
+      "timestamp": "2026-10-28T09:47:45.875Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "DELETE_LEAD",
+      "entityType": "lead",
+      "entityId": "be82c998-ebd8-4ae9-854a-f6b2c821cbd5",
+      "details": {
+        "businessName": "Retool Test Account"
+      }
+    },
+    {
+      "id": "6f3378d1-b35f-4945-9766-67a05bb68e35",
+      "timestamp": "2026-10-28T09:47:45.868Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "UPDATE_LEAD",
+      "entityType": "lead",
+      "entityId": "be82c998-ebd8-4ae9-854a-f6b2c821cbd5",
+      "details": {
+        "previous": {
+          "id": "be82c998-ebd8-4ae9-854a-f6b2c821cbd5",
+          "businessName": "Retool Test Account",
+          "website": "https://retool.com",
+          "contactPerson": "David Hsu, CEO",
+          "businessProblem": "Internal tool demo ghosting",
+          "outreachStatus": "Contacted",
+          "lastActionDate": "2026-10-26",
+          "nextFollowUpDate": "2026-10-27",
+          "priority": "High",
+          "nextAction": "Send automated reminder test",
+          "reasonForPriority": "Tier-1 developer platform",
+          "createdAt": "2026-10-28T09:47:45.849Z",
+          "updatedAt": "2026-10-28T09:47:45.849Z"
+        },
+        "updated": {
+          "id": "be82c998-ebd8-4ae9-854a-f6b2c821cbd5",
+          "businessName": "Retool Test Account",
+          "website": "https://retool.com",
+          "contactPerson": "David Hsu, CEO",
+          "businessProblem": "Internal tool demo ghosting",
+          "outreachStatus": "Meeting Booked",
+          "lastActionDate": "2026-10-26",
+          "nextFollowUpDate": "2026-10-27",
+          "priority": "High",
+          "nextAction": "Send automated reminder test",
+          "reasonForPriority": "Tier-1 developer platform",
+          "createdAt": "2026-10-28T09:47:45.849Z",
+          "updatedAt": "2026-10-28T09:47:45.866Z"
+        }
+      }
+    },
+    {
+      "id": "19eb1168-4dce-49d3-87dd-09e18b9c8b59",
+      "timestamp": "2026-10-28T09:47:45.851Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "CREATE_LEAD",
+      "entityType": "lead",
+      "entityId": "be82c998-ebd8-4ae9-854a-f6b2c821cbd5",
+      "details": {
+        "businessName": "Retool Test Account",
+        "priority": "High"
+      }
+    },
+    {
+      "id": "8416e09b-427f-4b7c-868e-a607e16826a9",
+      "timestamp": "2026-10-28T09:47:26.623Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000001",
+      "details": {
+        "email": "admin@growthops.com",
+        "role": "admin"
+      }
+    },
+    {
+      "id": "74a28b70-1fca-4d0c-b49d-e2bb41af331e",
+      "timestamp": "2026-10-28T09:26:00.236Z",
+      "userId": "a0000000-0000-0000-0000-000000000003",
+      "userEmail": "abhi.intern@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000003",
+      "details": {
+        "email": "abhi.intern@growthops.com",
+        "role": "candidate"
+      }
+    },
+    {
+      "id": "41f3dd29-e5ef-4adc-864e-25d72026125d",
+      "timestamp": "2026-10-28T09:19:23.092Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "SCORE_OVERRIDE",
+      "entityType": "evaluation",
+      "entityId": "e0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateId": "c0000000-0000-0000-0000-000000000001",
+        "newTotalScore": 94.5,
+        "overrideReason": "Demonstrated superior depth in live interview discussion.",
+        "overriddenBy": "Head of Growth (Admin)",
+        "finalStatus": "Shortlist"
+      }
+    },
+    {
+      "id": "87b5bfe3-7a20-4672-83ff-bcd0652c6dfe",
+      "timestamp": "2026-10-28T09:19:21.869Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "DELETE_LEAD",
+      "entityType": "lead",
+      "entityId": "01e18d38-ba83-49ca-a7e8-d0c833ab2a01",
+      "details": {
+        "businessName": "Retool Test Account"
+      }
+    },
+    {
+      "id": "15c03606-e76b-4629-9945-92f4c993066d",
+      "timestamp": "2026-10-28T09:19:21.861Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "UPDATE_LEAD",
+      "entityType": "lead",
+      "entityId": "01e18d38-ba83-49ca-a7e8-d0c833ab2a01",
+      "details": {
+        "previous": {
+          "id": "01e18d38-ba83-49ca-a7e8-d0c833ab2a01",
+          "businessName": "Retool Test Account",
+          "website": "https://retool.com",
+          "contactPerson": "David Hsu, CEO",
+          "businessProblem": "Internal tool demo ghosting",
+          "outreachStatus": "Contacted",
+          "lastActionDate": "2026-10-26",
+          "nextFollowUpDate": "2026-10-27",
+          "priority": "High",
+          "nextAction": "Send automated reminder test",
+          "reasonForPriority": "Tier-1 developer platform",
+          "createdAt": "2026-10-28T09:19:21.846Z",
+          "updatedAt": "2026-10-28T09:19:21.846Z"
+        },
+        "updated": {
+          "id": "01e18d38-ba83-49ca-a7e8-d0c833ab2a01",
+          "businessName": "Retool Test Account",
+          "website": "https://retool.com",
+          "contactPerson": "David Hsu, CEO",
+          "businessProblem": "Internal tool demo ghosting",
+          "outreachStatus": "Meeting Booked",
+          "lastActionDate": "2026-10-26",
+          "nextFollowUpDate": "2026-10-27",
+          "priority": "High",
+          "nextAction": "Send automated reminder test",
+          "reasonForPriority": "Tier-1 developer platform",
+          "createdAt": "2026-10-28T09:19:21.846Z",
+          "updatedAt": "2026-10-28T09:19:21.860Z"
+        }
+      }
+    },
+    {
+      "id": "8c304ae3-21ed-499f-aeb5-960fdb091ea4",
+      "timestamp": "2026-10-28T09:19:21.847Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "CREATE_LEAD",
+      "entityType": "lead",
+      "entityId": "01e18d38-ba83-49ca-a7e8-d0c833ab2a01",
+      "details": {
+        "businessName": "Retool Test Account",
+        "priority": "High"
+      }
+    },
+    {
+      "id": "992c6c98-b40d-4751-a84c-21b1ed9109dc",
+      "timestamp": "2026-10-28T09:19:21.027Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "USER_LOGIN",
+      "entityType": "user",
+      "entityId": "a0000000-0000-0000-0000-000000000001",
+      "details": {
+        "email": "admin@growthops.com",
+        "role": "admin"
+      }
+    },
+    {
+      "id": "audit-001",
+      "timestamp": "2026-10-25T14:05:00Z",
+      "userId": "a0000000-0000-0000-0000-000000000001",
+      "userEmail": "admin@growthops.com",
+      "action": "SHORTLIST_CANDIDATE",
+      "entityType": "candidate",
+      "entityId": "c0000000-0000-0000-0000-000000000001",
+      "details": {
+        "candidateName": "Abhi Pandey",
+        "previousStatus": "under_review",
+        "newStatus": "shortlisted",
+        "overallScore": 92.5
+      }
+    },
+    {
+      "id": "audit-002",
+      "timestamp": "2026-10-26T16:15:00Z",
+      "userId": "a0000000-0000-0000-0000-000000000002",
+      "userEmail": "sarah.ops@growthops.com",
+      "action": "SCHEDULE_INTERVIEW",
+      "entityType": "candidate",
+      "entityId": "c0000000-0000-0000-0000-000000000002",
+      "details": {
+        "candidateName": "Priya Sharma",
+        "previousStatus": "under_review",
+        "newStatus": "interview_scheduled",
+        "overallScore": 88
+      }
+    }
+  ]
+}
